@@ -1,0 +1,25 @@
+body{
+    background: url(images/bg.jpg) no-repeat fixed center/cover;
+}
+
+div{
+   display: block; 
+}
+.dog{
+    width: 15%;
+}
+.cat{
+    width: 7%;
+}
+.mouse{
+    width: 2%;
+}
+#main{
+    position: relative;
+}
+#pets{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    display: inherit;
+}
